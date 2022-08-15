@@ -1,0 +1,216 @@
+#title
+{
+    background-image: url(images/I\ m\ chahat.svg);
+    background-size: cover;
+    padding-bottom: 15%;
+}
+
+.nav-link
+{
+    color: beige;
+    font-size: 1.3rem;
+}
+
+.title-text
+{
+    color: white;
+    text-align: center;
+}
+
+.t-head
+{
+    padding-top: 17%;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+}
+
+.toggler-btn
+{
+    background-color: beige;
+}
+
+.t-p
+{
+    font-size: 1.5rem;
+}
+
+.navbar
+{
+    padding: 2rem 13rem 0 0;
+}
+
+.nav-item
+{
+    padding:0 1rem;
+}
+
+#profile
+{
+    text-align: center;
+    padding: 7% 5%;
+}
+
+.my-image
+{
+    height: 8rem;
+    width: 8rem;
+}
+
+.profile-head
+{
+    padding: 3% 0 1%;
+    color: #395B64;
+    font-size: 2.5rem;
+}
+
+.profile-p
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+#skill
+{
+    background-color:#395B64 ;
+    padding: 3% 5% 23%;
+    color: white;
+    text-align: center;
+}
+
+.skills-h
+{
+    color: #9cf1db;
+    font-size: 2.5rem;
+}
+
+.skills-h3
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.8rem;
+}
+
+.skills-p
+{
+    font-size: 1rem;
+}
+
+.carousel-item
+{
+    padding: 3% 20%;
+}
+
+.skill-img
+{
+    height: 7vh;
+}
+
+#interests
+{
+    text-align: center;
+    padding: 5% 7%;
+}
+
+.int-h
+{
+    padding: 2% 0 4%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.interest-head
+{
+    color:rgb(159, 154, 154);
+    padding-top: 3%;
+}
+
+#footer
+{
+    text-align: center;
+    background-color: #395B64;
+    padding: 4% 7%;
+}
+
+.footer-head
+{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2% 0;
+    font-weight: 300;
+}
+
+.icon
+{
+    color: white;
+    padding: 1% 2%;
+    font-size: 1.5rem;
+}
+
+@media (max-width:1080px)
+{
+    #skill
+    {
+        padding-bottom: 25%;
+    }
+    #title
+    {
+        padding-bottom: 23%;
+    }
+    .t-head
+    {
+        padding-top: 18%;
+    }
+}
+
+@media (max-width:799px)
+{
+    #skill
+    {
+        padding-bottom:35% ;
+    }
+    .int-h{
+        padding-bottom: 10%;
+    }
+    #title
+    {
+        padding-bottom: 35%;
+    }
+    .t-head
+    {
+        padding-top: 30%;
+    }
+}
+
+@media (max-width:650px)
+{
+    #skill
+    {
+        padding-bottom:58% ;
+    }
+    #title
+    {
+        padding-bottom: 42%;
+    }
+    .t-head
+    {
+        padding-top: 38%;
+    }
+    .profile-p{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width:900px){
+    .my-image{
+        height: 12rem;
+        width: 12rem;
+    }
+}
+
+@media(min-width:950px)
+{
+    .skills-p
+{
+    font-size: 1.2rem;
+}
+
+}
